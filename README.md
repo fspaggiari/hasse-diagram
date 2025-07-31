@@ -22,9 +22,10 @@ A **Hasse diagram** is a simplified drawing of a partially ordered set (poset), 
 ```bash
 hasse-diagram/
 │
+├── LICENSE             # License
+├── README.md           # Documentation
 ├── hasse.py            # Main module with all functionality
 ├── example.py          # Example script to test the library
-├── README.md           # Documentation
 ├── images/
 │   └── example_diagram.png  # Output example
 ```
