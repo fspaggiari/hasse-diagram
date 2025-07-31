@@ -34,11 +34,11 @@ hasse-diagram/
 
 ## ✨ Features
 
-✅ Automatically performs **transitive reduction** to eliminate redundant relations  
-✅ Validates that the input is a **valid poset** according to the definition
-✅ Dynamically adjusts **node size** and **layout** based on input size  
-✅ Supports **custom node colors** (classic colors like `red`, `green`, `blue`, etc.)  
-✅ Clean, level-based layout using `matplotlib` and `networkx`
+- Automatically performs **transitive reduction** to eliminate redundant relations  
+- Validates that the input is a **valid poset** according to the definition
+- Dynamically adjusts **node size** and **layout** based on input size  
+- Supports **custom node colors** (classic colors like `red`, `green`, `blue`, etc.)  
+- Clean, level-based layout using `matplotlib` and `networkx`
 
 ---
 
