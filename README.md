@@ -62,13 +62,26 @@ from hasse import display_hasse_diagram
 Define your poset (reflexive pairs are optional)
 
 ```bash
-poset = [(1, 2), (2, 3), (1, 3), (3, 4), (4, 4)]
+poset = [
+    (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 10), (1, 12), (1, 15), (1, 20), (1, 30), (1, 60),
+    (2, 2), (2, 4), (2, 6), (2, 10), (2, 12), (2, 20), (2, 30), (2, 60),
+    (3, 3), (3, 6), (3, 12), (3, 15), (3, 30), (3, 60),
+    (4, 4), (4, 12), (4, 20), (4, 60),
+    (5, 5), (5, 10), (5, 15), (5, 20), (5, 30), (5, 60),
+    (6, 6), (6, 12), (6, 30), (6, 60),
+    (10, 10), (10, 20), (10, 30), (10, 60),
+    (12, 12), (12, 60),
+    (15, 15), (15, 30), (15, 60),
+    (20, 20), (20, 60),
+    (30, 30), (30, 60),
+    (60, 60)
+]
 ```
 
 Set a title and node color, then display the diagram
 
 ```bash
-display_hasse_diagram(poset, title="My First Poset", node_color="skyblue")
+display_hasse_diagram(poset, title="My Poset", node_color="skyblue")
 ```
 
 Example diagram
