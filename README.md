@@ -24,7 +24,7 @@ hasse-diagram/
 │
 ├── LICENSE             # License
 ├── README.md           # Documentation
-├── hasse.py            # Main module with all functionality
+├── hasse_diagram.py    # Main module with all functionality
 ├── example.py          # Example script to test the library
 ├── images/
 │   └── example_diagram.png  # Output example
@@ -57,7 +57,7 @@ pip install matplotlib networkx
 Import the package
 
 ```bash
-from hasse import display_hasse_diagram
+from hasse_diagram import display_hasse_diagram
 ```
 
 Define your poset (reflexive pairs are optional)
